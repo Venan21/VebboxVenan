@@ -1,0 +1,7 @@
+lst=[3,10,2,1,20];
+
+
+longest=lenofsub[0];
+for i in range(0,len(lenofsub)-1):
+    if(lenofsub[i]<lenofsub[i+1]):
+       longest=lenofsub[i+1]
